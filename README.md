@@ -45,6 +45,8 @@ A newly provisioned virtual workstation (**NewVM**) was unable to utilize shared
 * **PowerShell Troubleshooting**: Documenting elevation errors when resetting system services.
   ![Script Error](./assets/06-Troubleshooting.png)
 
+  **This red text demonstrates a failed attempt to stop a service without Admin rights—proving the importance      of elevated sessions in IT Operations**
+
 ### **Phase 3: Verification of Success**
 * **Final Proof**: Capturing the active print queue on the client machine with a PDF job successfully processing.
   ![Verification](./assets/07-Verification.png)
