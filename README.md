@@ -28,16 +28,20 @@ A newly provisioned virtual workstation (**NewVM**) was unable to utilize shared
 ### **Phase 1: Installation & Configuration**
 * **Server Role Setup**: Installing the Print Server engine on DC-05.
   ![Role Install](./assets/01-Role-Installation.png)
+  
 * **Resource Sharing**: Configuring the network share and logical printer name.
   ![Sharing](./assets/02-Printer-Sharing.png)
+  
 * **Network Discovery**: Verifying the workstation's visibility of the Print Server.
   ![Network View](./assets/03-Network-Path.png)
 
 ### **Phase 2: Incident Diagnosis & Resolution**
 * **The Error**: End-user experiencing the "Access Denied" dialog.
   ![Error](./assets/04-Access-Denied-Error.png)
+  
 * **The RBAC Fix**: Aligning ACLs with Active Directory Security Groups.
   ![RBAC Fix](./assets/05-RBAC-Fix.png)
+  
 * **PowerShell Troubleshooting**: Documenting elevation errors when resetting system services.
   ![Script Error](./assets/06-Troubleshooting.png)
 
@@ -53,3 +57,6 @@ A newly provisioned virtual workstation (**NewVM**) was unable to utilize shared
 * **PowerShell Troubleshooting & UAC Awareness**
 * **Print Management & Driver Isolation**
 * **Incident Lifecycle Management (ITIL)**
+
+---
+**Developed by [Taki] | Systems Infrastructure & IT Operations Portfolio.**
